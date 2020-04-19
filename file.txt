@@ -4,3 +4,4 @@ this works ha ha nice
 interesting
 this is pretty powershell
 blocked
+removed stupid files
