@@ -2,3 +2,4 @@ Love using git but too lazy to commit every single time?
 Heres a cool solution!
 Every time you save the file, it is automatically committed 
 and pushed to github
+Never forget ever again!!!! :)))))
