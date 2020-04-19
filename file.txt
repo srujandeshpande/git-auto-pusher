@@ -1,5 +1,5 @@
 Love using git but too lazy to commit every single time?
 Heres a cool solution!
 Just save and your file gets automatically pushed to github!
-so cool isnt it? 
+so cool isnt it?
 Now you can never not use github :)

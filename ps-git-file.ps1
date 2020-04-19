@@ -1,4 +1,4 @@
-echo "Enter the name of the file you want to continously track"
+$Server = Read-Host -Prompt 'Enter the name of the file you would like to track'
 $FileName = "file.txt"
 $FileTime = Get-Date
 
