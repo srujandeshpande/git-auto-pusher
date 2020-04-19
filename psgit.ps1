@@ -1,3 +1,4 @@
+echo hellow
 $FileName = "file.txt"
 $FileTime = Get-Date
 
