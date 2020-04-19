@@ -1,6 +1,6 @@
 cls
-echo "Welcome to git-auto-pusher! This was created by Srujan Deshpande"
-echo "This version will track the parent folder"
+write-Host "Welcome to git-auto-pusher! This was created by Srujan Deshpande"
+write-Host "This version will track the parent folder"
 $FileName = Split-Path -Path 'Your Folder' -Parent
 echo $FileName
 $FileTime = Get-Date
