@@ -1,7 +1,2 @@
-shrish was here
-srujan was also here
-this works ha ha nice
-interesting
-this is pretty powershell
-blocked
-removed stupid files
+Love using git but too lazy to commit every single time?
+Heres a cool solution!
