@@ -1,8 +1,9 @@
 cls
 write-Host "Welcome to git-auto-pusher! This was created by Srujan Deshpande"
 write-Host "This version will track the parent folder"
-$scriptPath = (Get-Location).Path;
+$scriptPath = (Get-Location).Path
 $FileName = Split-Path -parent $scriptPath
+write-Host $FileName
 $FileTime = Get-Date
 
 # endless loop
