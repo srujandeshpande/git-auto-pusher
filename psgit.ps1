@@ -1,4 +1,4 @@
-echo Enter the name of the file you want to continously track
+echo "Enter the name of the file you want to continously track"
 $FileName = "file.txt"
 $FileTime = Get-Date
 
