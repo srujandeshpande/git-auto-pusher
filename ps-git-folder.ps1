@@ -3,7 +3,6 @@ write-Host "Welcome to git-auto-pusher! This was created by Srujan Deshpande"
 write-Host "This version will track the parent folder"
 $fileName = (Get-Location).Path
 $FileTime = Get-Date
-
 # endless loop
 for () {
     $file = Get-Item $FileName
