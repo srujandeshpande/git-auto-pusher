@@ -9,7 +9,7 @@ for () {
     $file = Get-Item $FileName
     if ($FileTime -ne $file.LastWriteTime) {
         git add .
-        git commit -m "$FileTime"
+        git commit -m "Auto-Commit $FileTime"
         git push
     }
     $FileTime = $file.LastWriteTime
