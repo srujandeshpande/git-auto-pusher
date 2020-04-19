@@ -10,5 +10,5 @@ for () {
         git push
     }
     $FileTime = $file.LastWriteTime
-    Start-Sleep 5
+    Start-Sleep 1
 }
