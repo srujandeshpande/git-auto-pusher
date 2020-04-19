@@ -24,10 +24,9 @@ for /f %%i in ('"forfiles /m %file% /c "cmd /c echo @ftime" "') do set modif_tim
 echo.
 echo.
 IF %modif_time%==%Allm% (
-git add .
-git commit -m "%modif_time%"
-git push
+echo File was altered.
+start "" "%file%"
 Timeout /t 1 >nul
 )
-
+echo file wasn't modified.
 GOTO CheckforAlter
