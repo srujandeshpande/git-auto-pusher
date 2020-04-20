@@ -21,8 +21,6 @@ if %Hour%==0 set "Hour=12"
 set "Allm=%Hour%:%Min%:%Sec%"
 
 for /f %%i in ('"forfiles /m %file% /c "cmd /c echo @ftime" "') do set modif_time=%%i
-echo.
-echo.
 IF %modif_time%==%Allm% (
 git add .
 git commit -m "%modif_time%"
