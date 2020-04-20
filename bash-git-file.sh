@@ -21,6 +21,7 @@ while true; do
     git add .
     git commit -m "$m2"
     ##{ echo "$username"; echo "$password" ; } | git push 
+    git push < $username
     m1=$m2
   fi
 done
