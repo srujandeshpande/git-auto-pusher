@@ -20,6 +20,6 @@ while true; do
   if [ "$m1" != "$m2" ] ; then
     git add .
     git commit -m "$m2"
-    { echo $username; echo $password ; } | git push 
+    { echo "$username"; echo "$password" ; } | git push 
   fi
 done
