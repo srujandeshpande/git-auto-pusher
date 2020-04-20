@@ -9,7 +9,7 @@ read username
 echo "Please enter your password"
 read password
 
-git config --global credential.helper 'cache --timeout 7200'
+git config --global credential.helper 'cache --timeout 180'
 m1=$(md5sum "$filename")
 
 while true; do
