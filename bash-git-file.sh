@@ -1,3 +1,5 @@
+#!/bin/sh
+
 clear
 echo "Welcome to git-auto-pusher! This was created by Srujan Deshpande"
 echo "Please enter the name of the file to be tracked. All files in this repo will be pushed."
@@ -18,6 +20,7 @@ while true; do
   if [ "$m1" != "$m2" ] ; then
     git add .
     git commit -m "$m2"
-    git push 
+    git push | grep -q "Username for 'https://github.com':" && echo '$username'
+    #git push 
   fi
 done
