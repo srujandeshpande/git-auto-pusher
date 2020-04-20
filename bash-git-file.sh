@@ -9,6 +9,7 @@ read username
 echo "Please enter your password"
 read password
 
+git config --global credential.helper 'cache --timeout 7200'
 m1=$(md5sum "$filename")
 
 while true; do
@@ -21,7 +22,7 @@ while true; do
     git add .
     git commit -m "$m2"
     ##{ echo "$username"; echo "$password" ; } | git push 
-    git push < $username
+    git push
     m1=$m2
   fi
 done
