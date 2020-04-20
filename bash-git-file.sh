@@ -20,9 +20,10 @@ while true; do
   if [ "$m1" != "$m2" ] ; then
     git add .
     git commit -m "$m2"
-    if echo "Hel" | grep -q 'Hel'; then
-        echo "matched"
-    fi
-    #git push 
+    #if git push | grep -q 'Hel'; then
+    #    echo "matched"
+    #fi
+    git push
+    echo "mah" 
   fi
 done
