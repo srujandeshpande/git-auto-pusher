@@ -1,6 +1,6 @@
 @echo off &setlocal
 
-TITLE File Monitor
+TITLE Git Auto Pusher
 
 Set file=file.txt
 
