@@ -1,4 +1,4 @@
 language: bash
 
 script:
-    - bash-git-file.sh
+    - ./bash-git-file.sh
