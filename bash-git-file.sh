@@ -9,11 +9,11 @@ read username
 echo "Please enter your password"
 read password
 
-git config --global credential.helper 'cache --timeout 180'
+git config --global credential.helper 'cache --timeout 10800'
 m1=$(md5sum "$filename")
 
 while true; do
-  # md5sum is computationally expensive, so check only once every 10 seconds
+  # md5sum is computationally expensive, so check only once every x seconds
   sleep 1
 
   m2=$(md5sum "$filename")
@@ -21,7 +21,7 @@ while true; do
   if [ "$m1" != "$m2" ] ; then
     git add .
     git commit -m "$m2"
-    ##{ echo "$username"; echo "$password" ; } | git push 
+    ##{ echo "$username"; echo "$password" ; } | git push
     git push
     m1=$m2
   fi
