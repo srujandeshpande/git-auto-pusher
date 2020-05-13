@@ -8,8 +8,8 @@ read duration
 git config --global credential.helper 'cache --timeout 10800'
 
 while true; do
-  sleep duration
+  sleep $duration
   git add .
-  git commit -m $date
+  git commit -m "\"$date\""
   git push
 done
