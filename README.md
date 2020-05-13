@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/srujandeshpande/git-auto-pusher.svg?branch=master)](https://travis-ci.com/srujandeshpande/git-auto-pusher)
 # Git Auto Pusher  
 Git Auto Pusher is the ultimate tool that you never knew you needed. It automatically compiles and pushes your code using git every time you make a change.  
 Never miss a compile ever again!  
