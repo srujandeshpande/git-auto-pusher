@@ -55,7 +55,7 @@ If you see a version number, you're good! If you get an error, check that you ha
 ### Step 3: Copy the file
 Unzip the download from earlier and locate the respective file for your terminal choice.
 #### Shell or Bash
-For Shell or Bash, copy the file ```time-based/bash-increment-git.sh```
+For Shell or Bash, copy the file `time-based/bash-increment-git.sh`
 
 ### Step 4: Paste the file in your directory
 Paste the copied file in your local repository
@@ -64,7 +64,7 @@ Paste the copied file in your local repository
 Navigate to your repository in a terminal window and run Git Auto Pusher with the following command
 
 #### Shell or Bash
-For Shell or Bash, use the command ```./bash-increment-git.sh```
+For Shell or Bash, use the command `./bash-increment-git.sh`
 
 ### Step 6: Enter the file name
 Once the script starts, you will be asked for a duration in seconds. Git Auto Pusher will attempt to commit and push after every duration interval.
