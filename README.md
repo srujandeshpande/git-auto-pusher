@@ -3,17 +3,21 @@
 Git Auto Pusher is the ultimate tool that you never knew you needed. It automatically compiles and pushes your code using git every time you make a change.  
 Never miss a compile ever again!  
 
+## There are 2 versions of git-auto-pusher  
+1. Commit whenever a file is changes
+2. Commit after a duration of time
+
 ## How to Use
 
 ### Step 1: Download
 Download the zip containing all the files from the github repository  
 
 ### Step 2: Make sure you have git installed and on your PATH
-Open your terminal of choice and type 
+Open your terminal of choice and type
 ```git --version```
 If you see a version number, you're good! If you get an error, check that you have installed git and it is added to your PATH variables.
 
-### Step 3: Copy the file 
+### Step 3: Copy the file
 Unzip the download from earlier and locate the respective file for your terminal choice.
 #### Shell or Bash
 For Shell or Bash, copy the file ```bash-git-file.sh```
