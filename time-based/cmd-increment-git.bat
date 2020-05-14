@@ -2,16 +2,16 @@
 
 TITLE Git Auto Pusher
 
-Set file=file.txt
-
 cls
-
 :DoGit
+Set allm=
+
+set "Allm=%Hour%:%Min%:%Sec%"
 
 git add .
-git commit -m "%modif_time%"
+git commit -m "%allm%"
 git push
 Timeout /t 1 >nul
+)
 
-
-GOTO CheckforAlter
+GOTO DoGit
